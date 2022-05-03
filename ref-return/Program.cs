@@ -8,6 +8,8 @@ namespace RefReturn
     {
         static void Main(string[] args)
         {
+            AmsiUtilsProtector.TestAmsiUtilsFlag();
+
             // This is an example of getting the memory address
             // of a private static field using reflection and
             // C# 7.0 return-ref feature.
